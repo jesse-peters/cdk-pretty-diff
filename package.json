@@ -52,9 +52,11 @@
     "uuid": "^7.0.2"
   },
   "dependencies": {
-    "through2": "^4.0.2",
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "diff": "^5.0.0",
     "diff2html": "^3.4.7",
-    "diff": "^5.0.0"
+    "through2": "^4.0.2"
   },
   "peerDependencies": {
     "@aws-cdk/cloudformation-diff": ">= 1.74.0",
